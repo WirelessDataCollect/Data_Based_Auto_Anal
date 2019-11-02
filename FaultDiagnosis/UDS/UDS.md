@@ -12,6 +12,8 @@ UDS本质上是一系列的服务，共包含6大类26种。每种服务都有�
 
 <img src="UDS_Protocal.jpg" width="600" alt="UDS网络协议">
 
+![图片](UDS_Protocal.jpg)
+
 ## X.UDS和OBD的区别
 
 * OBD
