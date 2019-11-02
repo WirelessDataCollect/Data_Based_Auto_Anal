@@ -10,9 +10,7 @@ UDS本质上是一系列的服务，共包含6大类26种。每种服务都有�
 - 如果是肯定的响应（**Positive Response**），回复`[SID+0x40]`，如请求10，响应50；请求22，响应62。
 - 如果是否定的响应（**Negative Response**），回复**7F+SID+NRC**，回复的是一个声明。
 
-<img src="./UDS_Protocal.jpg" width="600" alt="UDS网络协议">
-
-![图片](./UDS_Protocal.jpg)
+<img src="UDS_Protocal.jpg" width="600" alt="UDS网络协议">
 
 ## X.UDS和OBD的区别
 
