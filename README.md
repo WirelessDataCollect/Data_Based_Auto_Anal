@@ -2,5 +2,8 @@
 
 ## [FaultDiagnosis](./FaultDiagnosis/README.md)
 
-## [FaultPrediction](./FaultPrediction/README.md)
+## [mine](./mine)
 
+## [Model](./Model/README.md)
+
+## [Optimization](./Optimization/README.md)

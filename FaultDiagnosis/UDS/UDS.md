@@ -1,10 +1,8 @@
-[TOC]
-
 # UDS
 
 ## 1.简介
 
-UDS（Unified Diagnostic Services，统一的诊断服务）诊断协议是ISO 15765 和ISO 14229 定义的一种汽车通用诊断协议，位于OSI模型中的应用层，它可在不同的汽车总线（例如CAN， LIN， Flexray， Ethernet 和 K-line）上实现。UDS协议的应用层定义是ISO 14229-1，目前大部分汽车厂商均采用UDS on CAN的诊断协议。
+UDS（Unified Diagnostic Services，统一的诊断服务）诊断协议是ISO 15765 和ISO 14229 定义的一种汽车通用诊断协议，位于OSI模型中的应用层（有点问题，不光是应用层，见下图UDS的协议层次），它可在不同的汽车总线（例如CAN， LIN， Flexray， Ethernet 和 K-line）上实现。UDS协议的应用层定义是ISO 14229-1，目前大部分汽车厂商均采用UDS on CAN的诊断协议。
 
 UDS本质上是一系列的服务，共包含6大类26种。每种服务都有自己独立的ID，即SID。
 
@@ -12,7 +10,7 @@ UDS本质上是一系列的服务，共包含6大类26种。每种服务都有�
 - 如果是肯定的响应（**Positive Response**），回复`[SID+0x40]`，如请求10，响应50；请求22，响应62。
 - 如果是否定的响应（**Negative Response**），回复**7F+SID+NRC**，回复的是一个声明。
 
-<img src="../FaultDiagnosis/UDS/UDS_Protocal.jpg" width="600" alt="UDS网络协议">
+<img src="./UDS_Protocal.jpg" width="600" alt="UDS网络协议">
 
 ## X.UDS和OBD的区别
 
@@ -26,6 +24,8 @@ UDS本质上是一系列的服务，共包含6大类26种。每种服务都有�
 
 下图为UDS和OBD的协议层次对比。
 
-<img src="../FaultDiagnosis/UDS/UDS_OBD_COMP.jpg" width="800" alt="UDS和OBD的比较">
+<img src="./UDS_OBD_COMP.jpg" width="800" alt="UDS和OBD的比较">
 
-ISO 15765-2协议解决了CAN传输多帧的需求，CAN物理层和数据链路层遵循ISO 11898协议
+**ISO 15765-2协议**（网络层）解决了CAN传输多帧的需求（**补充**：重型车辆应用车载诊断系统有两种通讯协议：ISO 15765-4:2005 以及 SAE J1939-73）
+
+CAN物理层和数据链路层遵循**ISO 11898**协议
