@@ -2,8 +2,9 @@
 
 ## [FaultDiagnosis](./FaultDiagnosis/README.md)
 
+故障诊断
+
 ## [mine](./mine)
 
-## [Model](./Model/README.md)
+我的毕业设计
 
-## [Optimization](./Optimization/README.md)
