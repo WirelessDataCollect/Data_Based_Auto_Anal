@@ -1,5 +1,9 @@
 # 基于数据挖掘的商用车故障诊断平台设计与实现
 
+故障检测(Fault Detection)：实时监测过程数据，判断是否发生故障。
+故障识别(FaultIdentification)：发生故障后，找出与该故障最有关联的观测变量。
+故障诊断(Fault Diagnosis)：判断发生哪种故障，具体为确定故障的类型、故障的量级、故障发生的位置和时间。
+
 ## 1.当前研究现状
 
 1.OBD/[UDS](../FaultDiagnosis/UDS/UDS.md)仍然存在准确率不高的问题
