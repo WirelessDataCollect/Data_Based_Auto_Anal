@@ -1,18 +1,16 @@
 # FaultDiagnosis
 
-## 1.研究现状
-
-
-
-## 2.技术笔记
+## 1.资料汇集
 
 [监督学习笔记整理](./SupervisedFDD.md)
 
-[无监督学习笔记整理](./UnsupervisedFdd.md)
+[无监督学习笔记整理](./UnsupervisedFDD.md)
 
-[经典统计学笔记整理][./Statistics.md]
+[经典统计学笔记整理](./Statistics.md)
 
-## 3.前期论文阅读
+[概念](./SomeConcept.md)
+
+## 2.前期论文阅读
 
 ### 基于智能手机的汽车故障诊断系统研究与开发（2011 汽车工程 武理）
 
